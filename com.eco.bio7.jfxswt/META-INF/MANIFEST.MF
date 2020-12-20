@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Jfxswt
+Bundle-SymbolicName: com.eco.bio7.jfxswt
+Bundle-Version: 2.0.0.qualifier
+Bundle-Activator: com.eco.bio7.jfxswt.Activator
+Bundle-Vendor: ECO
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.swt
+Bundle-RequiredExecutionEnvironment: JavaSE-14
+Bundle-ClassPath: external:$java.home$/javafx/lib/javafx-swt.jar,
+ bin/
+Export-Package: com.eco.bio7.jfxswt,
+ javafx.embed.swt
