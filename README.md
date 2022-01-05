@@ -1,1 +1,1 @@
-# -EclipseSceneBuilderPlugin
+# EclipseSceneBuilderPlugin
